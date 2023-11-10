@@ -1,0 +1,37 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Difficulties.RetrieveAllModel
+@{
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" class="form-control" placeholder="Enter Name">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var difficulty in Model.difficulties)
+        {
+            <tr>
+                <th scope="row">@difficulty.Id</th>
+                <td>@difficulty.Name</td>
+                <td>
+                    <a asp-page="/Difficulties/Update" asp-route-id="@difficulty.Id">Update</a> /
+                    <a asp-page="/Difficulties/Delete" asp-route-id="@difficulty.Id">Delete</a> /
+                    <a asp-page="/Difficulties/Retrieve" asp-route-id="@difficulty.Id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

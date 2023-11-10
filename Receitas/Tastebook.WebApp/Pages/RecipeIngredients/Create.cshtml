@@ -1,0 +1,37 @@
+﻿@page
+@model Tastebook.WebApp.Pages.RecipeIngredients.CreateModel
+@{
+}
+
+<form method="post">
+
+    <div class="row">
+        <div class="col">
+            <label>Ingredient</label>
+            <input name="id_ingredient" class="form-control" placeholder="Ex: Flour">
+            <input hidden type="number" value="@Model.Recipe.Id" name="id_recipe" />
+        </div>
+        <div class="col">
+            <label>Quantity</label>
+            <input name="quantity" class="form-control" placeholder="Ex: 100">
+        </div>
+        <div class="col">
+            <label>Measure</label>
+            <input name="id_measure" class="form-control" placeholder="Ex: mg">
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Add More Ingredients</button>
+        </div>
+    </div>
+</form>
+<br />
+<br />
+<form action="https://localhost:44369/Recipes/RetrieveAll" method="get">
+    <input hidden type="number" value="@Model.Recipe.Id" name="id_recipe" />
+    <button type="submit" class="btn btn-primary">Next</button>
+</form>

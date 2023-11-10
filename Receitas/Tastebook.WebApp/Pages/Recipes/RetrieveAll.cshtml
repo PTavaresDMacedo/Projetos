@@ -1,0 +1,64 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Recipes.RetrieveAllModel
+@{
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" class="form-control" placeholder="Ex: Pão de Queijo">
+    </div>
+    <div class="form-group">
+        <label>Author</label>
+        <input name="author" class="form-control" placeholder="Ex: John Smith">
+    </div>
+    <div class="form-group">
+        <label>Category</label>
+        <input name="category" class="form-control" placeholder="Ex: Sweeties">
+    </div>
+    <div class="form-group">
+        <label>Preparation Time</label>
+        <input type="number" name="prep_time" style="width:150px" class="form-control" placeholder="Ex: 60min">
+    </div>
+    <div class="form-group">
+        <label>Difficulty</label>
+        <input name="difficulty" class="form-control" placeholder="Ex: Easy">
+    </div>
+    <div class="form-group">
+        <label>Preparation Method</label>
+        <textarea name="description" class="form-control" placeholder="Ex: Mix all ingredients..."></textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Preparation Time</th>
+            <th scope="col">Difficulty</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var recipe in Model.Recipes)
+        {
+            <tr>
+                <th scope="row">@recipe.Id</th>
+                <td>@recipe.Name</td>
+                <td>@recipe.Category.Name</td>
+                <td>@recipe.PreparationTime</td>
+                <td>@recipe.Difficulty.Name</td>
+                <td>
+                    <a asp-page="/Recipes/Update" asp-route-id="@recipe.Id">Update</a> /
+                    <a asp-page="/Recipes/Delete" asp-route-id="@recipe.Id">Delete</a> /
+                    <a asp-page="/Recipes/Retrieve" asp-route-id="@recipe.Id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

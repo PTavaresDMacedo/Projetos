@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "McKing.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/McKing.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McKing.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "McKing.Model/1.0.0": {
+      "type": "project",
+      "path": "../McKing.Model/McKing.Model.csproj",
+      "msbuildProject": "../McKing.Model/McKing.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "McKing.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pepst\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pepst\\Desktop\\Projeto Assembly\\McKing-3f (1)\\McKing-3f\\McKing.Repository\\McKing.Repository.csproj",
+      "projectName": "McKing.Repository",
+      "projectPath": "C:\\Users\\pepst\\Desktop\\Projeto Assembly\\McKing-3f (1)\\McKing-3f\\McKing.Repository\\McKing.Repository.csproj",
+      "packagesPath": "C:\\Users\\pepst\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pepst\\Desktop\\Projeto Assembly\\McKing-3f (1)\\McKing-3f\\McKing.Repository\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pepst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\pepst\\Desktop\\Projeto Assembly\\McKing-3f (1)\\McKing-3f\\McKing.Model\\McKing.Model.csproj": {
+              "projectPath": "C:\\Users\\pepst\\Desktop\\Projeto Assembly\\McKing-3f (1)\\McKing-3f\\McKing.Model\\McKing.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Recipes.RetrieveModel
+@{
+}
+
+ID: @Model.Recipe.Id
+<br />
+Name: @Model.Recipe.Name
+<br />
+Author: @Model.Recipe.Author.FirstName @Model.Recipe.Author.LastName
+<br />
+Difficulty: @Model.Recipe.Difficulty.Name 
+<br />
+Category: @Model.Recipe.Category.Name
+<br />
+
+Ingredients: <br /> @foreach (var ingredient in Model.Recipe.Ingredients)
+{
+    @ingredient.Quantity @ingredient.Measure.MeasureType <a> </a>  @ingredient.Ingredient.Name <br />
+}
+
+Preparation Time: @Model.Recipe.PreparationTime minute(s)
+<br />
+
+Preparation method: <br />
+@Model.Recipe.Description

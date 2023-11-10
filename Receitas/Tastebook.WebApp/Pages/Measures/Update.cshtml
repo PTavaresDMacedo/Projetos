@@ -1,0 +1,15 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Measures.UpdateModel
+@{
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Id</label>
+        <input readonly name="id" class="form-control" value="@Model.Measure.Id">
+        <label>Measure Type</label>
+        <input name="measure_type" class="form-control" value="@Model.Measure.MeasureType">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

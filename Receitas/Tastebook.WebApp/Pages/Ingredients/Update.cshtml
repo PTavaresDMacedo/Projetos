@@ -1,0 +1,15 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Ingredients.UpdateModel
+@{
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Id</label>
+        <input readonly name="id" class="form-control" value="@Model.Ingredient.Id">
+        <label>Ingredient</label>
+        <input name="name" class="form-control" value="@Model.Ingredient.Name">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

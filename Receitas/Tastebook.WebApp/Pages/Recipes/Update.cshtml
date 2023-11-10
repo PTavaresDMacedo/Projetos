@@ -1,0 +1,34 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Recipes.UpdateModel
+@{
+}
+
+
+<form method="post">
+    <div class="form-group">
+        <label>ID</label>
+        <input readonly name="id" class="form-control" value="@Model.Recipe.Id">
+    </div>
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" class="form-control" value="@Model.Recipe.Name">
+    </div>
+    <div class="form-group">
+        <label>Author</label>
+        <input readonly name="author" class="form-control" value="@Model.Recipe.Author.Id">
+    </div>
+    <div class="form-group">
+        <label>Category</label>
+        <input name="category" class="form-control" value="@Model.Recipe.Category.Id">
+    </div>
+    <div class="form-group">
+        <label>Preparation Time</label>
+        <input type="number" name="prep_time" style="width:150px" class="form-control" value="@Model.Recipe.PreparationTime">
+    </div>
+    <div class="form-group">
+        <label>Difficulty</label>
+        <input name="difficulty" class="form-control" value="@Model.Recipe.Difficulty.Id">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,0 +1,17 @@
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Service.deps.json
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Service.dll
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Service.pdb
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Model.dll
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Repository.dll
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Repository.pdb
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\bin\Debug\net6.0\Receitas.Model.pdb
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.csproj.AssemblyReference.cache
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.AssemblyInfoInputs.cache
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.AssemblyInfo.cs
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.csproj.CoreCompileInputs.cache
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.csproj.CopyComplete
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.dll
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\refint\Receitas.Service.dll
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\Receitas.Service.pdb
+C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Receitas.Service\obj\Debug\net6.0\ref\Receitas.Service.dll

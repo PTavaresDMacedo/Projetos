@@ -1,0 +1,156 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tastebook.WebApp
+build_property.RootNamespace = Tastebook.WebApp
+build_property.ProjectDir = C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Tastebook.WebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\pepst\Desktop\Projeto Assembly\Receitas\Tastebook.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Categories/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xSZXRyaWV2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Categories/RetrieveAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xSZXRyaWV2ZUFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Categories/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Difficulties/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlmZmljdWx0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Difficulties/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlmZmljdWx0aWVzXFJldHJpZXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Difficulties/RetrieveAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlmZmljdWx0aWVzXFJldHJpZXZlQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Difficulties/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlmZmljdWx0aWVzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Ingredients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ncmVkaWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Ingredients/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ncmVkaWVudHNcUmV0cmlldmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Ingredients/RetrieveAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ncmVkaWVudHNcUmV0cmlldmVBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Ingredients/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ncmVkaWVudHNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Measures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhc3VyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Measures/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhc3VyZXNcUmV0cmlldmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Measures/RetrieveAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhc3VyZXNcUmV0cmlldmVBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Measures/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhc3VyZXNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/RecipeIngredients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/RecipeIngredients/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudHNcUmV0cmlldmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/RecipeIngredients/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudHNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Recipes/CreateDescription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xDcmVhdGVEZXNjcmlwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Recipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Recipes/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xSZXRyaWV2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Recipes/RetrieveAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xSZXRyaWV2ZUFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Recipes/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Users/Retrieve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmV0cmlldmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Users/RetrieveAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcUmV0cmlldmVBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Users/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pepst/Desktop/Projeto Assembly/Receitas/Tastebook.WebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d0p1i1fthn

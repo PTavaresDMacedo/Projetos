@@ -1,0 +1,24 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Recipes.CreateDescriptionModel
+@{
+}
+
+
+<form method="post">
+
+    <div class="row">
+        <div class="col">
+            <label>Preparation Method</label>
+            <textarea name="description" class="form-control" placeholder="Ex: Mix all ingredients..."></textarea>
+            <input hidden type="number" value="@Model.Recipe.Id" name="id_recipe" />
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Finish</button>
+        </div>
+    </div>
+</form>

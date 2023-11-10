@@ -1,0 +1,37 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Ingredients.RetrieveAllModel
+@{
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" class="form-control" placeholder="Enter Ingredient">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ingredient in Model.ingredients)
+        {
+            <tr>
+                <th scope="row">@ingredient.Id</th>
+                <td>@ingredient.Name</td>
+                <td>
+                    <a asp-page="/Ingredients/Update" asp-route-id="@ingredient.Id">Update</a> /
+                    <a asp-page="/Ingredients/Delete" asp-route-id="@ingredient.Id">Delete</a> /
+                    <a asp-page="/Ingredients/Retrieve" asp-route-id="@ingredient.Id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

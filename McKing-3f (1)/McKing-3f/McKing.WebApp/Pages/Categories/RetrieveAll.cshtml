@@ -1,0 +1,37 @@
+﻿@page
+@model McKing.WebApp.Pages.RetrieveAllModel
+@{
+}
+
+<form method ="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input name="name" class="form-control" placeholder="Enter Name">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model.categories)
+        {
+            <tr>
+                <th scope="row">@category.Id</th>
+                <td>@category.Name</td>
+                <td>
+                    <a asp-page="/Categories/Update" asp-route-id="@category.Id">Update</a> /
+                    <a asp-page="/Categories/Delete" asp-route-id="@category.Id">Delete</a> / 
+                    <a asp-page="/Categories/Retrieve" asp-route-id="@category.Id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

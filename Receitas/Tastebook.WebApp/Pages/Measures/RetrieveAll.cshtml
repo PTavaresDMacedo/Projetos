@@ -1,0 +1,37 @@
+﻿@page
+@model Tastebook.WebApp.Pages.Measures.RetrieveAllModel
+@{
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Measure Type</label>
+        <input name="measure_type" class="form-control" placeholder="Enter Measure Type">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var measure in Model.measures)
+        {
+            <tr>
+                <th scope="row">@measure.Id</th>
+                <td>@measure.MeasureType</td>
+                <td>
+                    <a asp-page="/Measures/Update" asp-route-id="@measure.Id">Update</a> /
+                    <a asp-page="/Measures/Delete" asp-route-id="@measure.Id">Delete</a> /
+                    <a asp-page="/Measures/Retrieve" asp-route-id="@measure.Id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,22 @@
+﻿@page
+@model McKing.WebApp.Pages.Recipes.RetrieveModel
+@{}
+
+
+@Model.Recipe.Id
+<br/>
+@Model.Recipe.Title
+<br />
+@Model.Recipe.Author.Name
+<br />
+
+@foreach (var ingredient in Model.Recipe.Ingredients)
+{
+    @ingredient.Quantity @ingredient.Measure.Name <a>  </a>   @ingredient.Ingredient.Name
+    <br />
+}
+
+@Model.Recipe.PrepMethod
+<br />
+...
+
