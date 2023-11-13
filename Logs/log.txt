@@ -1,0 +1,5 @@
+10/11/2023 23:38:49 : C:\Projetos-main\Projetos-main\source\1.txt was copied to the C:\Projetos-main\Projetos-main\replica\1.txt
+10/11/2023 23:38:49 : C:\Projetos-main\Projetos-main\source\2.txt was copied to the C:\Projetos-main\Projetos-main\replica\2.txt
+10/11/2023 23:38:49 : C:\Projetos-main\Projetos-main\replica\3.txt was deleted from C:\Projetos-main\Projetos-main\source\3.txt
+10/11/2023 23:38:49 : C:\Projetos-main\Projetos-main\replica\4.txt was deleted from C:\Projetos-main\Projetos-main\source\4.txt
+Syncronization has stopped.

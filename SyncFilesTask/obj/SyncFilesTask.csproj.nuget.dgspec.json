@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pepst\\Desktop\\ProjetoAssembly\\SyncFilesTask\\SyncFilesTask.csproj": {}
+    "C:\\Users\\pepst\\Desktop\\Projetos\\SyncFilesTask\\SyncFilesTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pepst\\Desktop\\ProjetoAssembly\\SyncFilesTask\\SyncFilesTask.csproj": {
+    "C:\\Users\\pepst\\Desktop\\Projetos\\SyncFilesTask\\SyncFilesTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pepst\\Desktop\\ProjetoAssembly\\SyncFilesTask\\SyncFilesTask.csproj",
+        "projectUniqueName": "C:\\Users\\pepst\\Desktop\\Projetos\\SyncFilesTask\\SyncFilesTask.csproj",
         "projectName": "SyncFilesTask",
-        "projectPath": "C:\\Users\\pepst\\Desktop\\ProjetoAssembly\\SyncFilesTask\\SyncFilesTask.csproj",
+        "projectPath": "C:\\Users\\pepst\\Desktop\\Projetos\\SyncFilesTask\\SyncFilesTask.csproj",
         "packagesPath": "C:\\Users\\pepst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pepst\\Desktop\\ProjetoAssembly\\SyncFilesTask\\obj\\",
+        "outputPath": "C:\\Users\\pepst\\Desktop\\Projetos\\SyncFilesTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pepst\\AppData\\Roaming\\NuGet\\NuGet.Config",

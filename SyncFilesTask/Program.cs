@@ -27,7 +27,7 @@ namespace SyncFilesTask
             //try/catch to run the SyncPeriodically method and test for possible exceptions
             try
             {
-                using (StreamWriter log = new StreamWriter(logPath, true))
+                using (StreamWriter log = new StreamWriter(String.Concat(logPath,"\\log.txt"), true))
                 {
 
                     SyncPeriodically(source, replica, frequency, log);
